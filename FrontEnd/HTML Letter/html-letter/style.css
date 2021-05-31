@@ -1,0 +1,71 @@
+body{
+  margin:1em;
+  background-color: #000000;
+  text-shadow: 10px #ffffff;
+}
+.container{
+  display: flex;
+  flex-direction:column;
+  align-items: start;
+  justify-content: middle;
+  background-image: url('https://wallpaperaccess.com/full/1971371.jpg');
+  padding:20px;
+  margin: 10px;
+  margin-top:0px;
+  border-radius: 0px 0px 15px 15px;
+  
+  
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  background-color: #8367C7;
+  margin:10px;
+  padding:15px;
+  margin-bottom: 0px;
+  border-radius: 15px 15px 0px 0px;  
+}
+.logo{
+  border-radius:50%;
+  animation: rotation 6s infinite linear;
+}
+@keyframes rotation{
+    from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.subject{
+  position:relative;
+  color: f3f3f3;
+  font-family: oswald;
+  left:25%;
+  
+}
+.btn-link{
+  text-decoration:none; color:black; border:1px solid black; border-radius:25px; padding:10px 20px; margin:30px auto; cursor:pointer;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.btn-link:hover{
+  background-color: black;
+  transition: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: white; 
+  border: 1px solid black;
+  
+  box-shadow: 0px 2px 3px 1px #212121
+}
+
+
+h5,td,h4{
+      font-family: oswald;
+      font-weight: 400px;
+ }
+
+p{
+  font-family: oswald;
+  font-weight: 200px;
+}
