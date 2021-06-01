@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+
+body{
+    position:relative;
+    left:35%;
+    right:35%;
+    margin: 20px;
+    color: darkmagenta;
+    font-family: "Fira Code";
+}
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 75px;
+    
+}
+.container{
+    text-align: center;
+   
+    border: 2px solid black;
+    height:120vh;
+    width:50em;
+    border-top: none;
+}
+.first_column{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
+    border-right: 2px solid black;
+    
+}
+.second_column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5px;
+    padding-left: 20px; 
+   }
+
+.header{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    word-wrap: break-word;
+    top: -10px;
+}
+
+.header:before,
+.header:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 20.8em;
+}
+.header:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.header:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 0px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 500px;
+    padding-bottom: 5px;
+}
+h2,h4,h6,h3{
+    padding: 5px 0px;
+}
+ul{
+    margin: 15px;
+    padding: 0px;
+}
+li{
+    text-align: left !important;
+    margin: 0px;
+    padding: 2px;
+}
