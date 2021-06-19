@@ -3,7 +3,6 @@ const rectangles = document.querySelectorAll(".box");
 Array.from(rectangles).forEach((box) => {
   box.addEventListener("click", () => {
     let result = box.classList.toggle("active");
-    console.log(result);
     if (result) seats++;
     else seats--;
     document.querySelector(".bs").innerHTML = "Booked Seats : " + seats;
